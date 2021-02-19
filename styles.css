@@ -1,0 +1,16 @@
+#titulo {
+    text-align: center;
+    color: red;
+}
+#body{
+    background-color: black;
+}
+#texto-lista {
+    width: 1600px;
+    color: black;
+    border-style: none;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+}
