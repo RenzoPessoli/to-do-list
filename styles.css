@@ -1,16 +1,35 @@
 #titulo {
     text-align: center;
-    color: red;
-}
-#body{
-    background-color: black;
-}
-#texto-lista {
-    width: 1600px;
     color: black;
-    border-style: none;
+    font-size: 70px
 }
-.item {
+body{
+    background-image: url(carbonfiber.jpg);
+    font-family: "roboto";
+}
+#boton{
+    font-size: 30px;
+    font-family: "roboto";
+}
+#form{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
+.error{
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+}
+.inputtext{
+    color: red;
+    display: flex;
+}
+.col{
+  flex: 1;
+}
+

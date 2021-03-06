@@ -4,27 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-Do List</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
-<body id="body">
+<body>
     <h1 id="titulo">TO-DO LIST</h1><hr>
-    <div class="contenido">
-        <ul id="lista">
-            <li class="item">
-                <input type="checkbox" id="checkbox">
-                <p id="texto-lista"></p>
-                <button id="X-button">X</button><br>
-            </li>    
-        </ul>
-        <hr>
-        <div id="input">
-                <form action="">
-                <button id="boton">add to list</button>
-                <input type="form" id="escribir-tarea" placeholder="Escribe una tarea">
+    <div id="contenido">
+        <div id="tasks"></div>
+        <div id="task-list"></div>
+            <form id="form">
+                <button id="boton" type="submit">add to list</button>
+                <textarea id="task-input" placeholder="Add a to-do"></textarea>
             </form>
         </div>
-    </div>
     <script src="app.js"></script>
 </body>
 </html>
